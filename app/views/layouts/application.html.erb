@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Science</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+</head>
+<body data-spy="scroll" data-target="navbar navbar-default navbar-fixed-top">
+
+	<nav class="navbar navbar-default navbar-static-top" role="navigation">
+  <div class="container">
+   <div class="navbar-brand">
+    <%= link_to "CoLabs", welcome_index_path %>
+   </div>
+
+    <ul class="nav navbar-nav navbar-right">
+    	<li><a>learn more</a></li>
+    	<li><a>Sign up</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<%= yield %>
+
+</body>
+<footer>
+<nav class="navbar navbar-default navbar-static-bottom" role="navigation">
+  <div class="container">
+    <ul class="nav navbar-nav">
+      <li><a href"#">Privacy</a></li>
+      <li><a href"#">Terms</a></li>
+      <li><a href"#">Contribute</a></li>
+  </div>
+</nav>
+</footer>
+</html>

@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @cred.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @cred.last_name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @cred.email %>
+</p>
+
+<%= link_to 'Edit', edit_cred_path(@cred) %> |
+<%= link_to 'Back', creds_path %>

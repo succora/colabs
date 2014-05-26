@@ -1,0 +1,25 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.jumbotron {
+	background-image: url("http://24.media.tumblr.com/786cef21ca271002c4a434e905621d20/tumblr_mvyx8txG0p1st5lhmo1_1280.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 80%;
+	padding: 240px 0;
+	color: #FFF;
+	background-color: #000;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+
+.marketing-header {
+	display: block;
+	text-align: center;
+}
+
+.keys {
+	margin-top: 50px;
+}
